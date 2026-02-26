@@ -27,7 +27,7 @@ except ImportError:
     sys.exit(1)
 
 
-AGENTBEATS_API_URL = "https://agentbeats.dev/api/agents"
+AGENTBEATS_API_URL = "https://staging.agentbeats.dev/api/agents"
 
 
 def fetch_agent_info(agentbeats_id: str) -> dict:
