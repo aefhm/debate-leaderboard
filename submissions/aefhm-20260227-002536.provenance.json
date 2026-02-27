@@ -1,0 +1,18 @@
+{
+  "image_digests": {
+    "green-agent": "ghcr.io/rdi-foundation/agentbeats-tutorial-debate-judge@sha256:c3b5f8efd0d55457c11dc27a329197121ebdbdc556b4c43fff1d369d805c5368",
+    "pro_debater": "ghcr.io/rdi-foundation/agentbeats-tutorial-debater@sha256:c67b50748c5d942d67131c0d20932b74e0d70f0a8fbbc7604dc99cb50fa920d6",
+    "con_debater": "ghcr.io/rdi-foundation/agentbeats-tutorial-debater@sha256:c67b50748c5d942d67131c0d20932b74e0d70f0a8fbbc7604dc99cb50fa920d6",
+    "agentbeats-client": "ghcr.io/agentbeats/agentbeats-client@sha256:13dfe3ef4e583a80e7ce2fe3becd0ce3b879841368a7f4fa40b6ebbabeeb014e"
+  },
+  "timestamp": "2026-02-27T00:25:36Z",
+  "github_actions": {
+    "run_url": "https://github.com/aefhm/debate-leaderboard/actions/runs/22467124233",
+    "run_logs_url": "https://api.github.com/repos/aefhm/debate-leaderboard/actions/runs/22467124233/logs",
+    "ref": "refs/heads/quick-submit-019c9c79-8e9e-7253-bbcf-007801d51154",
+    "sha": "b3f0d660576d06ba0d6e5d4b33feb03de4d0b37c",
+    "repository_url": "https://github.com/aefhm/debate-leaderboard",
+    "workflow_ref": "aefhm/debate-leaderboard/.github/workflows/run-scenario.yml@refs/heads/quick-submit-019c9c79-8e9e-7253-bbcf-007801d51154",
+    "workflow_sha": "b3f0d660576d06ba0d6e5d4b33feb03de4d0b37c"
+  }
+}

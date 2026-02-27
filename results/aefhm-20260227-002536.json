@@ -1,0 +1,26 @@
+{
+  "participants": {
+    "pro_debater": "019c9c35-30cf-7803-8098-169834213626",
+    "con_debater": "019c9c35-30cf-7803-8098-169834213626"
+  },
+  "results": [
+    {
+      "pro_debater": {
+        "emotional_appeal": 0.7,
+        "argument_clarity": 0.8,
+        "argument_arrangement": 0.8,
+        "relevance_to_topic": 0.9,
+        "total_score": 3.2
+      },
+      "con_debater": {
+        "emotional_appeal": 0.6,
+        "argument_clarity": 0.7,
+        "argument_arrangement": 0.7,
+        "relevance_to_topic": 0.8,
+        "total_score": 2.8
+      },
+      "winner": "pro_debater",
+      "reason": "The pro debater offered a more compelling argument for proactive regulation, using stronger analogies and framing the issue as one of responsible stewardship rather than fear-mongering. The con debater's arguments, while valid, relied more on hypothetical scenarios and a less persuasive tone."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+[config]
+num_rounds = 2
+topic = "Should artificial intelligence be regulated?"
+
+[green_agent]
+agentbeats_id = "019c49f4-3654-7ee0-b2cf-214e3010b167"
+
+[green_agent.env]
+GOOGLE_API_KEY = "${GOOGLE_API_KEY}"
+
+[[participants]]
+agentbeats_id = "019c9c35-30cf-7803-8098-169834213626"
+name = "pro_debater"
+
+[participants.env]
+GOOGLE_API_KEY = "${GOOGLE_API_KEY}"
+
+[[participants]]
+agentbeats_id = "019c9c35-30cf-7803-8098-169834213626"
+name = "con_debater"
+
+[participants.env]
+GOOGLE_API_KEY = "${GOOGLE_API_KEY}"
