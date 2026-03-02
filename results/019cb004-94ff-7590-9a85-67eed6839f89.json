@@ -1,0 +1,28 @@
+{
+  "status": "completed",
+  "results": [
+    {
+      "pro_debater": {
+        "emotional_appeal": 0.7,
+        "argument_clarity": 0.9,
+        "argument_arrangement": 0.9,
+        "relevance_to_topic": 1.0,
+        "total_score": 3.5
+      },
+      "con_debater": {
+        "emotional_appeal": 0.6,
+        "argument_clarity": 0.9,
+        "argument_arrangement": 0.9,
+        "relevance_to_topic": 1.0,
+        "total_score": 3.4
+      },
+      "winner": "pro_debater",
+      "reason": "The Pro debater presented a more comprehensive and well-structured argument, touching upon critical aspects like ethics, societal impact, safety, and global standards. While the Con debater raised valid concerns about innovation and accessibility, their reliance on self-regulation felt less robust than the Pro's call for governmental and international frameworks. The Pro's arguments were slightly more compelling in their overall scope and the directness with which they addressed potential harms."
+    }
+  ],
+  "participants": {
+    "green": "019caf70-d702-78c3-ae26-77cb406c24fb",
+    "pro_debater": "019caf01-7a0e-7ef3-a0b2-4ecb5ff61123",
+    "con_debater": "019caf01-7a0e-7ef3-a0b2-4ecb5ff61123"
+  }
+}
