@@ -1,16 +1,23 @@
-[green_agent]
-agentbeats_id = ""
-env = { API_KEY = "${GITHUB_SECRET_NAME}", LOG_LEVEL = "INFO" }
-
-[[participants]]
-agentbeats_id = ""
-name = "role_1_name"
-env = {}
-
-[[participants]]
-agentbeats_id = ""
-name = "role_2_name"
-env = {}
-
 [config]
-# Add your assessment config here
+num_rounds = 2
+topic = "Should artificial intelligence be regulated?"
+
+[green_agent]
+agentbeats_id = "019c49f4-3654-7ee0-b2cf-214e3010b167"
+
+[green_agent.env]
+OPENAI_API_KEY = "${OPENAI_API_KEY}"
+
+[[participants]]
+agentbeats_id = "019c9c35-30cf-7803-8098-169834213626"
+name = "pro_debater"
+
+[participants.env]
+OPENAI_API_KEY = "${OPENAI_API_KEY}"
+
+[[participants]]
+agentbeats_id = "019c9c35-30cf-7803-8098-169834213626"
+name = "con_debater"
+
+[participants.env]
+OPENAI_API_KEY = "${OPENAI_API_KEY}"
